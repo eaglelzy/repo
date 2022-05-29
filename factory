@@ -1,0 +1,17 @@
+{
+    "code":0,
+    "message":"success",
+    "data":[
+        {
+            "factoryId":"3488134134",
+            "name":"石家庄南三条批发市场",
+            "pictures":[
+                {
+                    "pictureId":"83491834134",
+                    "description":"营业执照",
+                    "url":"https://www.zhongguofeng.com/uploads/allimg/180810/13-1PQ0150512.jpg"
+                }
+            ]
+        }
+    ]
+}
