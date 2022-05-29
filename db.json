@@ -8,7 +8,28 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "factories":[
+        {
+            "id":"12345",
+            "name":"石家庄南三条批发市场",
+            "pictures":[
+                {
+                    "pictureId":"12345",
+                    "description":"营业执照",
+                    "url":"https://www.zhongguofeng.com/uploads/allimg/180810/13-1PQ0150512.jpg"
+                }
+            ]
+        },
+    {
+            "id":"123456",
+            "name":"石家庄南三条批发市场",
+            "pictures":[
+                {
+                    "pictureId":"123456",
+                    "description":"营业执照",
+                    "url":"https://www.zhongguofeng.com/uploads/allimg/180810/13-1PQ0150512.jpg"
+                }
+            ]
+        }
+    ]
 }
