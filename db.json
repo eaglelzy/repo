@@ -1,22 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "factories":[
-        {
-            "factoryId":"12345",
-            "name":"石家庄南三条批发市场"
-        },
+    "factories":[
     {
-            "factoryId":"123456",
-            "name":"石家庄南三条批发市场"
-
+        "factoryId":"11111111",
+        "name":"石家庄南三条批发市场",
+        "pictures": [
+        {
+            "pictureId":"111111",
+            "description":"营业执照",
+            "url":"https://img.tukuppt.com/ad_preview/00/18/99/5c99f4e477446.jpg"
+        },
+{
+            "pictureId":"222222",
+            "description":"营业执照2",
+            "url":"https://img.ixintu.com/download/jpg/201911/1e32559c46420e81f94bab15b3485055.jpg"
         }
+        ]
+    },
+    {
+        "factoryId":"22222222",
+        "name":"北京红杰批发市场",
+        "pictures": [
+        {
+            "pictureId":"111111",
+            "description":"供应商授权",
+            "url":"https://img.ixintu.com/download/jpg/201911/1e32559c46420e81f94bab15b3485055.jpg"
+        }
+        ]
+
+    }
     ]
 }
