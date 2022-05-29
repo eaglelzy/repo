@@ -1,7 +1,5 @@
 {
-    "code":0,
-    "message":"success",
-    "data":[
+    "factories":[
         {
             "factoryId":"3488134134",
             "name":"石家庄南三条批发市场",
