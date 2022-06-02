@@ -1,17 +1,165 @@
 {
-  "factory": [
+  "factories": [
     {
-      "name": "活动几点结束",
+      "name": "厂商1",
       "id": "16gRidj"
+    },
+    {
+      "name": "厂商2",
+      "id": "aZl8JsL"
     }
   ],
-  "picture": [
+  "products": [
+      {
+      "id":"123434134234",
+      "name":"雪糕",
+      "factoryId":"16gRidj",
+      "suppliers":[
+          {
+              "id":"12341344",
+              "name":"供应商1"
+          },
+          {
+              "id":"adferw",
+              "name":"供应商2"
+          }
+      ]
+      },  
+        {
+      "id":"123434134234",
+      "name":"雪糕",
+      "factoryId":"16gRidj",
+      "suppliers":[
+          {
+              "id":"12341344",
+              "name":"供应商1"
+          },
+          {
+              "id":"adferw",
+              "name":"供应商2"
+          }
+      ]
+      }
+  ],
+  "productPictures": [
+    {
+      "id": "1000",
+      "description": "厂家授权",
+      "create_time": 1654012212,
+      "url": "https://gw.alicdn.com/i4/710600684/O1CN01bNcLnV1GvJd3wK1k2_!!710600684.jpg_Q75.jpg_.webp",
+      "productId": "123434134234"
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "供应商1",
+      "id": "12341344"
+    },
+    {
+      "name": "供应商2",
+      "id": "adferw"
+    }
+  ],
+  "supplierPictures": [
+    {
+      "id": "1000",
+      "description": "厂家授权",
+      "create_time": 1654012212,
+      "url": "https://gw.alicdn.com/i4/710600684/O1CN01bNcLnV1GvJd3wK1k2_!!710600684.jpg_Q75.jpg_.webp",
+      "supplierId": "adferw"
+    }
+  ],
+  "pictures": [
     {
       "id": "1000",
       "description": "商标注册证",
       "create_time": 1654012212,
       "url": "https://gw.alicdn.com/i4/710600684/O1CN01bNcLnV1GvJd3wK1k2_!!710600684.jpg_Q75.jpg_.webp",
-      "factoryId": "16gRidj"
+      "factoryId": "1000"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-22-03-58-351.jpg",
+      "description": "生产许可证",
+      "factoryId": "16gRidj",
+      "id": "55xAHY4"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-22-04-09-316.jpg",
+      "description": "批次检验报告",
+      "factoryId": "16gRidj",
+      "id": "OFuMUCI"
+    },
+    {
+      "url": "",
+      "description": "生产许可证",
+      "factoryId": "IvtZUD1",
+      "id": "PgOaIYR"
+    },
+    {
+      "url": "",
+      "description": "商标注册证",
+      "factoryId": "IvtZUD1",
+      "id": "CiCsKZp"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-24-55-075.jpg",
+      "description": "营业执照",
+      "factoryId": "IvtZUD1",
+      "id": "YwTcGc7"
+    },
+    {
+      "url": "",
+      "description": "批次检验报告",
+      "factoryId": "IvtZUD1",
+      "id": "ZoUCtfO"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-24-50-877.jpg",
+      "description": "特殊化妆品备案许可证",
+      "factoryId": "IvtZUD1",
+      "id": "tnxqg0m"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-41-19-448.jpg",
+      "description": "商标注册证",
+      "factoryId": "IvtZUD1",
+      "id": "G5pUoeH"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-41-37-045.jpg",
+      "description": "商标注册证",
+      "factoryId": "IvtZUD1",
+      "id": "ms9woZ8"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-42-14-008.jpg",
+      "description": "商标注册证",
+      "factoryId": "aZl8JsL",
+      "id": "uhfmt4a"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-42-30-852.jpg",
+      "description": "特殊化妆品备案许可证",
+      "factoryId": "aZl8JsL",
+      "id": "zJcBH-8"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-42-47-385.jpg",
+      "description": "其他证件",
+      "factoryId": "aZl8JsL",
+      "id": "oUNev7z"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-54-16-441.jpg",
+      "description": "营业执照",
+      "factoryId": "16gRidj",
+      "id": "-mTUhWE"
+    },
+    {
+      "url": "content://com.lizy.supermarketassistant.provider/external_files/Android/data/com.lizy.supermarketassistant/cache/2022-06-01-23-54-30-097.jpg",
+      "description": "商标注册证",
+      "factoryId": "16gRidj",
+      "id": "Dju-5gJ"
     }
   ]
 }
